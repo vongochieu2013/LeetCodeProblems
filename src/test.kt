@@ -54,5 +54,7 @@ fun main() {
 //  val test = findMaximizedCapital(2, 0, intArrayOf(1, 2, 3), intArrayOf(0, 1, 1))
 //  val test = coinChange(intArrayOf(1, 2, 5), 11)
 //  var test = StringBuilder()
-  val message = "test"
+
+  val result = shortestPathLengthBFS(arrayOf(intArrayOf(1, 2, 3), intArrayOf(0), intArrayOf(0), intArrayOf(0)))
+  println(result)
 }
