@@ -1,7 +1,3 @@
-
-import jdk.internal.org.jline.utils.Colors
-
-
 /**
  * Leetcode problems: https://leetcode.com/problems/number-of-segments-in-a-string/description/
  * Date: Oct 24th, 2023

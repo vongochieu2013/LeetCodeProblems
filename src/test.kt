@@ -55,6 +55,8 @@ fun main() {
 //  val test = coinChange(intArrayOf(1, 2, 5), 11)
 //  var test = StringBuilder()
 
-  val result = shortestPathLengthBFS(arrayOf(intArrayOf(1, 2, 3), intArrayOf(0), intArrayOf(0), intArrayOf(0)))
-  println(result)
+//  val result = shortestPathLengthBFS(arrayOf(intArrayOf(1, 2, 3), intArrayOf(0), intArrayOf(0), intArrayOf(0)))
+//  println(result)
+
+//  println(compress("2(ab)3(c)")) // ababab
 }
