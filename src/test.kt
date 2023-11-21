@@ -59,4 +59,5 @@ fun main() {
 //  println(result)
 
 //  println(compress("2(ab)3(c)")) // ababab
+  println(countNicePairs(intArrayOf(13, 10, 35, 24, 76)))
 }
