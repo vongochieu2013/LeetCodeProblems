@@ -58,6 +58,7 @@ fun main() {
 //  val result = shortestPathLengthBFS(arrayOf(intArrayOf(1, 2, 3), intArrayOf(0), intArrayOf(0), intArrayOf(0)))
 //  println(result)
 
-//  println(compress("2(ab)3(c)")) // ababab
-  println(countNicePairs(intArrayOf(13, 10, 35, 24, 76)))
+//  println(uncompress("10(ab)")) // ababab
+//  println(countNicePairs(intArrayOf(13, 10, 35, 24, 76)))
+  println(maxLengthBetweenEqualCharacters("cbzxy"))
 }

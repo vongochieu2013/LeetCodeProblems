@@ -2,10 +2,9 @@
  * Leetcode problems: https://bigfrontend.dev/problem/uncompress-string
  * Date: Nov 20th, 2023
  * Author: Hieu Vo
- * Time complexity: O(n^2)
- * Space complexity:
+ * Time complexity: ?
+ * Space complexity: O(n^2)
  */
-
 fun uncompress(compressed: String): String {
   val stack = ArrayDeque<Char>()
 
