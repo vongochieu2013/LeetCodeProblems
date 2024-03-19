@@ -60,5 +60,6 @@ fun main() {
 
 //  println(uncompress("10(ab)")) // ababab
 //  println(countNicePairs(intArrayOf(13, 10, 35, 24, 76)))
-  println(maxLengthBetweenEqualCharacters("cbzxy"))
+//  println(maxLengthBetweenEqualCharacters("cbzxy"))
+  print(decodeString("3[a]2[bc]"))
 }
