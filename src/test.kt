@@ -61,5 +61,16 @@ fun main() {
 //  println(uncompress("10(ab)")) // ababab
 //  println(countNicePairs(intArrayOf(13, 10, 35, 24, 76)))
 //  println(maxLengthBetweenEqualCharacters("cbzxy"))
-  print(decodeString("3[a]2[bc]"))
+//  print(maximumLengthSubstring("bcbbbcba"))
+  var obj = ExamRoom(10)
+  println(obj.seat())
+  println(obj.seat())
+
+  println(obj.seat())
+
+  println(obj.seat())
+
+  println(obj.leave(4))
+  println(obj.seat())
+
 }
