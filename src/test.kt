@@ -62,15 +62,16 @@ fun main() {
 //  println(countNicePairs(intArrayOf(13, 10, 35, 24, 76)))
 //  println(maxLengthBetweenEqualCharacters("cbzxy"))
 //  print(maximumLengthSubstring("bcbbbcba"))
-  var obj = ExamRoom(10)
-  println(obj.seat())
-  println(obj.seat())
-
-  println(obj.seat())
-
-  println(obj.seat())
-
-  println(obj.leave(4))
-  println(obj.seat())
-
+//  var obj = ExamRoom(10)
+//  println(obj.seat())
+//  println(obj.seat())
+//
+//  println(obj.seat())
+//
+//  println(obj.seat())
+//
+//  println(obj.leave(4))
+//  println(obj.seat())
+//  println(lengthOfLongestSubstringTwoDistinct("ccaabbb"))
+  println(countStudents(intArrayOf(1, 1, 1, 0, 0, 1), intArrayOf(1, 0, 0, 0, 1, 1)))
 }
