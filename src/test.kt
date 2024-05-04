@@ -73,5 +73,20 @@ fun main() {
 //  println(obj.leave(4))
 //  println(obj.seat())
 //  println(lengthOfLongestSubstringTwoDistinct("ccaabbb"))
-  println(countStudents(intArrayOf(1, 1, 1, 0, 0, 1), intArrayOf(1, 0, 0, 0, 1, 1)))
+//  println(countStudents(intArrayOf(1, 1, 1, 0, 0, 1), intArrayOf(1, 0, 0, 0, 1, 1)))
+  val catalog: MutableList<MutableList<String>> = mutableListOf(
+    mutableListOf("Books", "Classics", "Fiction"),
+    mutableListOf("Electronics", "Cell Phones", "Computers", "Ultimate item"),
+    mutableListOf("Grocery", "Beverages", "Snacks"),
+    mutableListOf("Snacks", "Chocolate", "Sweets"),
+    mutableListOf("root", "Books", "Electronics", "Grocery")
+  )
+
+  val updates: MutableList<MutableList<String>> = mutableListOf(
+    mutableListOf("Snacks", "Marmalade"),
+    mutableListOf("Fiction", "Harry Potter"),
+    mutableListOf("root", "T-shirts"),
+    mutableListOf("T-shirts", "CodeSignal")
+  )
+  println(solution(catalog, updates))
 }
