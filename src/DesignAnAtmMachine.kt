@@ -32,14 +32,11 @@ class ATM() {
 }
 
 fun main() {
-  val atm = ATM()
-  atm.deposit(intArrayOf(0, 0, 1, 2, 1))
-  atm.withdraw(600).forEach { print("$it ") }
-  println()
-  atm.deposit(intArrayOf(0, 1, 0, 1, 1))
-  atm.withdraw(600).forEach { print("$it ") }
-  println()
-  atm.withdraw(550).forEach { print("$it ") }
-  println()
+  val test = "I am Hieu."
+  val result = test.split("")
+  println(result)
+
+  val result2 = test.toCharArray().map { it.toString() }
+  println(result2)
 
 }

@@ -89,6 +89,23 @@ fun main() {
 //    mutableListOf("T-shirts", "CodeSignal")
 //  )
 //  println(solution(catalog, updates))
-    println(findRelativeRanks(intArrayOf(10, 3, 8, 9, 4)))
+//    println(findRelativeRanks(intArrayOf(10, 3, 8, 9, 4)))
+    println("variableTest2Name".snakeCase())
+    println("variableTest2Name".snakeCase1())
+    println("businessStreetAddressLine1".snakeCase())
+    println("businessStreetAddressLine1".snakeCase1())
 
+}
+
+fun String.snakeCase(): String {
+    return this.replace(Regex("([a-z])([A-Z0-9])"), "$1_$2")
+        .replace(Regex("([A-Z])([A-Z][a-z])"), "$1_$2")
+        .lowercase()
+}
+
+fun String.snakeCase1(): String {
+    return this.replace(Regex("([a-z0-9])([A-Z])"), "$1_$2")  // Handle lowercase/number to uppercase
+        .replace(Regex("([A-Za-z])([0-9])"), "$1_$2")        // Handle letter to number transitions
+        .replace(Regex("([A-Z])([A-Z][a-z])"), "$1_$2")      // Handle consecutive uppercase letters (e.g., HTTPResponse)
+        .lowercase()
 }
